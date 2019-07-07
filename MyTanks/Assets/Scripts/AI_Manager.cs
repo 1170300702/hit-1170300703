@@ -56,7 +56,7 @@ public class AI_Manager : MonoBehaviour
 
     // Start is called before the first frame update
     void Start()
-    {
+    {	// lan is a pig
         gen = GameObject.Find("Canvas/Generation").GetComponent<Text>();
         time = GameObject.Find("Canvas/NextGenTime").GetComponent<Text>();
     }
